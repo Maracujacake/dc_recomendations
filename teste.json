@@ -1,4 +1,13 @@
 {
+  "info": {
+    "grau_maximo": 3,
+    "grau_medio": 2.0,
+    "grau_minimo": 1,
+    "num_arestas": 10,
+    "num_comunidades": 3,
+    "num_nos": 10,
+    "tamanho_medio_comunidade": 3.33
+  },
   "nodes": [
     {"id": "Geraldo Pereira Rocha Filho", "label": "Geraldo Pereira Rocha Filho", "comunidade": 1, "dc_ufscar": false},
     {"id": "Leandro Yukio Mano", "label": "Leandro Yukio Mano", "comunidade": 1, "dc_ufscar": false},
