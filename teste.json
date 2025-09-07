@@ -1,18 +1,26 @@
 {
   "nodes": [
-    { "id": "PessoaA", "label": "Pessoa A", "comunidade": 0, "email": "pessoa.a@ufscar.br", "publicacoes": 10, "dc_ufscar": true },
-    { "id": "Colab1", "label": "Colaborador 1", "comunidade": 1 },
-    { "id": "Colab2", "label": "Colaborador 2", "comunidade": 1 }
+    {"id": "Geraldo Pereira Rocha Filho", "label": "Geraldo Pereira Rocha Filho", "comunidade": 1, "dc_ufscar": false},
+    {"id": "Leandro Yukio Mano", "label": "Leandro Yukio Mano", "comunidade": 1, "dc_ufscar": false},
+    {"id": "Alan Valejo", "label": "Alan Valejo", "comunidade": 1, "dc_ufscar": true},
+    {"id": "Jo Ueyama", "label": "Jo Ueyama", "comunidade": 2, "dc_ufscar": false},
+    {"id": "Vinícius P Gonçalves", "label": "Vinícius P Gonçalves", "comunidade": 2, "dc_ufscar": false},
+    {"id": "Eduardo P Costa", "label": "Eduardo P Costa", "comunidade": 2, "dc_ufscar": false},
+    {"id": "Paulo Eduardo Althoff", "label": "Paulo Eduardo Althoff", "comunidade": 3, "dc_ufscar": false},
+    {"id": "Thiago de Paulo Faleiros", "label": "Thiago de Paulo Faleiros", "comunidade": 3, "dc_ufscar": false},
+    {"id": "Yu-tao Zhu", "label": "Yu-tao Zhu", "comunidade": 3, "dc_ufscar": false},
+    {"id": "Jianglong Yan", "label": "Jianglong Yan", "comunidade": 3, "dc_ufscar": false}
   ],
   "edges": [
-    { "source": "PessoaA", "target": "Colab1", "weight": 3 },
-    { "source": "PessoaA", "target": "Colab2", "weight": 2 },
-    { "source": "Colab1", "target": "Colab2", "weight": 1 }
-  ],
-  "info": {
-    "num_nodes": 3,
-    "num_edges": 3,
-    "num_communities": 2,
-    "avg_degree": 2.0
-  }
+    {"source": "Geraldo Pereira Rocha Filho", "target": "Leandro Yukio Mano", "weight": 1},
+    {"source": "Geraldo Pereira Rocha Filho", "target": "Alan Valejo", "weight": 1},
+    {"source": "Geraldo Pereira Rocha Filho", "target": "Jo Ueyama", "weight": 1},
+    {"source": "Leandro Yukio Mano", "target": "Alan Valejo", "weight": 1},
+    {"source": "Jo Ueyama", "target": "Vinícius P Gonçalves", "weight": 1},
+    {"source": "Jo Ueyama", "target": "Eduardo P Costa", "weight": 1},
+    {"source": "Paulo Eduardo Althoff", "target": "Thiago de Paulo Faleiros", "weight": 1},
+    {"source": "Paulo Eduardo Althoff", "target": "Yu-tao Zhu", "weight": 1},
+    {"source": "Paulo Eduardo Althoff", "target": "Jianglong Yan", "weight": 1},
+    {"source": "Thiago de Paulo Faleiros", "target": "Yu-tao Zhu", "weight": 1}
+  ]
 }
