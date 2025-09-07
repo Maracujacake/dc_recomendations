@@ -1,0 +1,18 @@
+{
+  "nodes": [
+    { "id": "PessoaA", "label": "Pessoa A", "comunidade": 0, "email": "pessoa.a@ufscar.br", "publicacoes": 10, "dc_ufscar": true },
+    { "id": "Colab1", "label": "Colaborador 1", "comunidade": 1 },
+    { "id": "Colab2", "label": "Colaborador 2", "comunidade": 1 }
+  ],
+  "edges": [
+    { "source": "PessoaA", "target": "Colab1", "weight": 3 },
+    { "source": "PessoaA", "target": "Colab2", "weight": 2 },
+    { "source": "Colab1", "target": "Colab2", "weight": 1 }
+  ],
+  "info": {
+    "num_nodes": 3,
+    "num_edges": 3,
+    "num_communities": 2,
+    "avg_degree": 2.0
+  }
+}
